@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tronco de Pirâmide</title>
+    <link rel="shortcut icon" href="../img/icone pagina pi.png" type="image/x-icon">
+    <link rel="stylesheet" href="../styles/estilos F.css">
+</head>
+
+<body>
+    <header>
+        <a href="../index.html" target="_blank"><img src="../img/icons8-voltar-64.png" alt="seta" width="5%">VOLTAR</a>
+
+        <h1>Calculadora de Área do Tronco de Pirâmide</h1>
+    </header>
+
+    <main>
+
+
+        <p class="bold">Fórmula para calcular a área <code>= </code>&pi; * (R + r) * (R - r + &radic;(h^2 + (R - r)^2))
+        </p>
+
+        <form>
+            <div>
+                <label for="raioMaior">Raio Maior (R):</label>
+                <input type="number" id="raioMaior" required>
+            </div>
+
+            <div>
+                <label for="raioMenor">Raio Menor (r):</label>
+                <input type="number" id="raioMenor" required>
+            </div>
+
+            <div>
+                <label for="altura">Altura (h):</label>
+                <input type="number" id="altura" required>
+            </div>
+
+            <div>
+                <button type="button" id="calcular-btn" onclick="calcularArea_troncodapiramide() ">Calcular
+                    Área</button>
+                <script src="../JavaScript/script.js">
+                </script>
+            </div>
+
+            <div>
+                <label for="resultadoP">Área do Tronco de Pirâmide:</label>
+                <!-- <input id="resultado" >-->
+                <span id="resultadoP"></span>
+            </div>
+        </form>
+    </main>
+
+
+
+
+    <footer>
+
+        <p>Copyright © 2023 Aventureiros das Formas Proibidas, Inc. All rights reserved.</p>
+
+    </footer>
+
+</body>
+
+</html>

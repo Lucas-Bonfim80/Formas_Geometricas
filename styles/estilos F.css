@@ -1,0 +1,147 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/math.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+p {
+    color: rgb(90, 154, 168);
+    margin: 2%;
+}
+
+
+header {
+    background-color: rgb(29, 29, 29);
+    align-items: center;
+    text-align: center;
+    color: #f0f0f0;
+    padding: 20px;
+    border-radius: 0 0 10px 10px;
+}
+
+header a {
+    cursor: pointer;
+    text-decoration: none;
+    color: #2f5c5f;
+
+}
+
+button {
+    background-color: #2f5c5f;
+    color: #f8f4f4;
+    padding: 6px 44.5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 9px 7px;
+    max-height: 100%;
+}
+
+
+main {
+    max-width: 60%;
+    background-color: rgb(20, 48, 61);
+    padding: 5vh 3vh;
+    margin: 0px auto;
+    flex: 1 1 0;
+}
+
+article img {
+    margin: 0 20px;
+    cursor: pointer;
+    max-width: 200px;
+
+}
+
+.texto {
+    text-decoration: none;
+    color: black;
+}
+
+article {
+    border: 0.1vh rgb(255, 255, 255) solid;
+    margin: 4% 0px;
+}
+
+hr {
+    border: 0.1vh rgb(255, 255, 255) solid;
+}
+
+
+h3 {
+    text-align: center;
+}
+
+.bold {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 120%;
+}
+
+span {
+    color: #ffffff;
+    font-size: 150%;
+
+}
+
+label {
+    margin: 1%;
+    color: #ffffff;
+}
+
+input {
+    margin: 1%;
+    display: flex;
+    color: #000000;
+}
+
+.mail {
+    margin: 1%;
+
+}
+
+h2 {
+    font-family: system-ui, -apple-system;
+    text-align: center;
+    font-size: 230%;
+    color: #ffffff;
+}
+
+
+footer {
+    background-color: rgb(29, 29, 29);
+    color: #828282;
+    flex-direction: row;
+    padding: 6vh;
+    flex-wrap: wrap;
+    font-size: 2vh;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="email"],
+input[type="password"] {
+
+    border: 1px solid #ccc;
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+select {
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}

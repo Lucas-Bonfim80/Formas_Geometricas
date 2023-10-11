@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Círculo</title>
+    <link rel="shortcut icon" href="../img/icone pagina pi.png" type="image/x-icon">
+    <link rel="stylesheet" href="../styles/estilos F.css">
+</head>
+
+<body>
+    <header>
+        <a href="../index.html" target="_blank"><img src="../img/icons8-voltar-64.png" alt="seta"
+                width="5%">VOLTAR</a>
+
+        <h1>Calculadora de Área do Quadrado</h1>
+    </header>
+
+    <main>
+        <p class="bold"> Um círculo é uma figura geométrica plana composta por todos os pontos que estão a uma distância
+            igual ou inferior a um determinado raio de um determinado centro. O raio é a distância do centro do círculo
+            a qualquer ponto da circunferência.</p>
+
+        <p>Fórmula para calcular a área do círculo: pi * (r ^ 2)</p>
+
+        <p></p>
+
+        <form>
+            <div>
+                <label for="raio">Raio:</label>
+                <input type="number" id="raio" required>
+
+
+                <div>
+                    <button type="button" id="calcular-btn" onclick="calcularArea_circulo() ">Calcular
+                        Área</button>
+                    <script src="../JavaScript/script.js">
+                    </script>
+                </div>
+
+                <div>
+                    <label for="resultadoC">Área do Círculo:</label>
+                    <span id="resultadoC"></span>
+                </div>
+            </div>
+        </form>
+    </main>
+
+    <footer>
+
+        <p>Copyright © 2023 Aventureiros das Formas Proibidas, Inc. All rights reserved.</p>
+
+    </footer>
+
+</body>
+
+</html>

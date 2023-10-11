@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retângulo</title>
+    <link rel="shortcut icon" href="../img/icone pagina pi.png" type="image/x-icon">
+    <link rel="stylesheet" href="../styles/estilos F.css">
+</head>
+
+<body>
+    <header>
+        <a href="../index.html" target="_blank"><img src="../img/icons8-voltar-64.png" alt="seta"
+            width="5%">VOLTAR</a>
+
+        <h1> Calculadora de area do Retângulo</h1>
+    </header>
+
+    <main>
+        </header>
+
+        <main>
+            <p class="bold">Um retângulo é uma figura geométrica de quatro lados, onde os lados opostos são paralelos e
+                têm o mesmo comprimento.
+            </p>
+
+            <p>A fórmula para calcular a área de um retângulo é simplesmente o produto da base (lado mais longo) pela
+                altura (lado mais curto). Se denotarmos a base como "b" e a altura como "h", então a fórmula para
+                calcular a área é: Área do Retângulo = base * altura</p>
+
+            <form>
+                <div>
+                    <label for="BaseR">Base:</label>
+                    <input type="number" id="BaseR" required>
+                    <div>
+
+                        <div>
+                            <label for="AlturaR">Altura:</label>
+                            <input type="number" id="AlturaR" required>
+                            <div>
+
+                                <button type="button" id="calcular-btn" onclick="calcularArea_retangulo() ">Calcular
+                                    Área</button>
+                                <script src="../JavaScript/script.js">
+                                </script>
+                            </div>
+
+                            <div>
+                                <label for="resultadoR">Área do Retângulo:</label>
+                                <span id="resultadoR"></span>
+                            </div>
+                        </div>
+            </form>
+        </main>
+
+        <footer>
+
+            <p>Copyright © 2023 Aventureiros das Formas Proibidas, Inc. All rights reserved.</p>
+
+        </footer>
+</body>
+
+</html>

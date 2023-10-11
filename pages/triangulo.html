@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triângulo</title>
+    <link rel="shortcut icon" href="../img/icone pagina pi.png" type="image/x-icon">
+    <link rel="stylesheet" href="../styles/estilos F.css">
+</head>
+
+<body>
+    <header>
+        <a href="../index.html" target="_blank"><img src="../img/icons8-voltar-64.png" alt="seta"
+            width="5%">VOLTAR</a>
+
+        <h1>Calculadora de area do Triângolo</h1>
+    </header>
+    <main>
+        <p class="bold"> Um triângulo é uma figura geométrica plana que possui três lados, embora seu nome indique que o triângulo seja um polígono que possua três ângulos. Na realidade, os triângulos podem ser definidos de três maneiras: polígono que possui três lados, três ângulos internos ou três vértices </p>
+
+        <p>Se você tiver todas as informações, isto é, todos os lados e todos os ângulos, a maneira mais simples é (A = base * altura /2), onde b é a base e h é a altura, ou seja, o segmento de reta que leva do vértice oposto à base até a base e forma um ângulo reto com a base.</p>
+
+        <form>
+            <div>
+                <label for="ladoq">Base:</label>
+                <input type="number" id="baset" required>
+                <div>
+
+                    <div>
+                        <label for="alturat">Altura:</label>
+                        <input type="number" id="alturat" required>
+                        <div>
+
+                            <button type="button" id="calcular-btn" onclick="calcularArea_triangulo() ">Calcular
+                                Área</button>
+                            <script src="../JavaScript/script.js">
+                            </script>
+                        </div>
+
+                        <div>
+                            <label for="resultadoT">Área do Triângulo:</label>
+                            <span id="resultadoT"></span>
+                        </div>
+                    </div>
+        </form>
+    </main>
+
+    <footer>
+
+        <p>Copyright © 2023 Aventureiros das Formas Proibidas, Inc. All rights reserved.</p>
+
+    </footer>
+</body>
+
+</html>
